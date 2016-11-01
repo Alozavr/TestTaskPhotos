@@ -9,10 +9,19 @@
 /* Begin PBXBuildFile section */
 		C12013551DC8C2370039CD04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C12013541DC8C2370039CD04 /* main.m */; };
 		C12013581DC8C2370039CD04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C12013571DC8C2370039CD04 /* AppDelegate.m */; };
-		C120135B1DC8C2370039CD04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C120135A1DC8C2370039CD04 /* ViewController.m */; };
 		C120135E1DC8C2370039CD04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C120135C1DC8C2370039CD04 /* Main.storyboard */; };
 		C12013601DC8C2370039CD04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C120135F1DC8C2370039CD04 /* Assets.xcassets */; };
 		C12013631DC8C2370039CD04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12013611DC8C2370039CD04 /* LaunchScreen.storyboard */; };
+		C120136C1DC8C4B80039CD04 /* DGAlbumsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C120136B1DC8C4B80039CD04 /* DGAlbumsVC.m */; };
+		C120136F1DC8C5850039CD04 /* DGAlbumsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C120136E1DC8C5850039CD04 /* DGAlbumsCell.m */; };
+		C12013721DC8C6690039CD04 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C12013711DC8C6690039CD04 /* Photos.framework */; };
+		C17D175D1DC8CC06006B11DD /* DGAlbumsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D175C1DC8CC06006B11DD /* DGAlbumsViewModel.m */; };
+		C17D17661DC8FDD9006B11DD /* PHAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D17651DC8FDD9006B11DD /* PHAPI.m */; };
+		C17D17691DC907B7006B11DD /* DGPhotosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D17681DC907B7006B11DD /* DGPhotosVC.m */; };
+		C17D176C1DC907F5006B11DD /* DGPhotosViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D176B1DC907F5006B11DD /* DGPhotosViewModel.m */; };
+		C17D17701DC910DB006B11DD /* DGPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D176F1DC910DB006B11DD /* DGPhotoPreviewCell.m */; };
+		C17D17731DC91F68006B11DD /* DGPhotoPage.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D17721DC91F68006B11DD /* DGPhotoPage.m */; };
+		C17D17761DC9234A006B11DD /* DGPhotoPageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D17751DC9234A006B11DD /* DGPhotoPageViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,30 @@
 		C12013541DC8C2370039CD04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C12013561DC8C2370039CD04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C12013571DC8C2370039CD04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C12013591DC8C2370039CD04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C120135A1DC8C2370039CD04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C120135D1DC8C2370039CD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C120135F1DC8C2370039CD04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12013621DC8C2370039CD04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C12013641DC8C2370039CD04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C120136A1DC8C4B80039CD04 /* DGAlbumsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGAlbumsVC.h; sourceTree = "<group>"; };
+		C120136B1DC8C4B80039CD04 /* DGAlbumsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGAlbumsVC.m; sourceTree = "<group>"; };
+		C120136D1DC8C5850039CD04 /* DGAlbumsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGAlbumsCell.h; sourceTree = "<group>"; };
+		C120136E1DC8C5850039CD04 /* DGAlbumsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGAlbumsCell.m; sourceTree = "<group>"; };
+		C12013711DC8C6690039CD04 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		C17D175B1DC8CC06006B11DD /* DGAlbumsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGAlbumsViewModel.h; sourceTree = "<group>"; };
+		C17D175C1DC8CC06006B11DD /* DGAlbumsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGAlbumsViewModel.m; sourceTree = "<group>"; };
+		C17D17641DC8FDD9006B11DD /* PHAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHAPI.h; sourceTree = "<group>"; };
+		C17D17651DC8FDD9006B11DD /* PHAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHAPI.m; sourceTree = "<group>"; };
+		C17D17671DC907B7006B11DD /* DGPhotosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPhotosVC.h; sourceTree = "<group>"; };
+		C17D17681DC907B7006B11DD /* DGPhotosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPhotosVC.m; sourceTree = "<group>"; };
+		C17D176A1DC907F5006B11DD /* DGPhotosViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPhotosViewModel.h; sourceTree = "<group>"; };
+		C17D176B1DC907F5006B11DD /* DGPhotosViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPhotosViewModel.m; sourceTree = "<group>"; };
+		C17D176E1DC910DB006B11DD /* DGPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPhotoPreviewCell.h; sourceTree = "<group>"; };
+		C17D176F1DC910DB006B11DD /* DGPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPhotoPreviewCell.m; sourceTree = "<group>"; };
+		C17D17711DC91F68006B11DD /* DGPhotoPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPhotoPage.h; sourceTree = "<group>"; };
+		C17D17721DC91F68006B11DD /* DGPhotoPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPhotoPage.m; sourceTree = "<group>"; };
+		C17D17741DC9234A006B11DD /* DGPhotoPageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPhotoPageViewModel.h; sourceTree = "<group>"; };
+		C17D17751DC9234A006B11DD /* DGPhotoPageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPhotoPageViewModel.m; sourceTree = "<group>"; };
+		C17D17771DC92E7C006B11DD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C12013721DC8C6690039CD04 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +72,7 @@
 			children = (
 				C12013521DC8C2370039CD04 /* Photos */,
 				C12013511DC8C2370039CD04 /* Products */,
+				C12013701DC8C6690039CD04 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +87,18 @@
 		C12013521DC8C2370039CD04 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				C17D17631DC8FCE2006B11DD /* Views */,
+				C17D17621DC8FCC0006B11DD /* ViewModels */,
+				C17D17611DC8FCB0006B11DD /* ViewControllers */,
 				C12013561DC8C2370039CD04 /* AppDelegate.h */,
 				C12013571DC8C2370039CD04 /* AppDelegate.m */,
-				C12013591DC8C2370039CD04 /* ViewController.h */,
-				C120135A1DC8C2370039CD04 /* ViewController.m */,
 				C120135C1DC8C2370039CD04 /* Main.storyboard */,
 				C120135F1DC8C2370039CD04 /* Assets.xcassets */,
 				C12013611DC8C2370039CD04 /* LaunchScreen.storyboard */,
 				C12013641DC8C2370039CD04 /* Info.plist */,
 				C12013531DC8C2370039CD04 /* Supporting Files */,
+				C17D17641DC8FDD9006B11DD /* PHAPI.h */,
+				C17D17651DC8FDD9006B11DD /* PHAPI.m */,
 			);
 			path = Photos;
 			sourceTree = "<group>";
@@ -77,6 +109,52 @@
 				C12013541DC8C2370039CD04 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C12013701DC8C6690039CD04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C17D17771DC92E7C006B11DD /* QuartzCore.framework */,
+				C12013711DC8C6690039CD04 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C17D17611DC8FCB0006B11DD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C17D17711DC91F68006B11DD /* DGPhotoPage.h */,
+				C17D17721DC91F68006B11DD /* DGPhotoPage.m */,
+				C120136A1DC8C4B80039CD04 /* DGAlbumsVC.h */,
+				C120136B1DC8C4B80039CD04 /* DGAlbumsVC.m */,
+				C17D17671DC907B7006B11DD /* DGPhotosVC.h */,
+				C17D17681DC907B7006B11DD /* DGPhotosVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C17D17621DC8FCC0006B11DD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C17D175B1DC8CC06006B11DD /* DGAlbumsViewModel.h */,
+				C17D175C1DC8CC06006B11DD /* DGAlbumsViewModel.m */,
+				C17D176A1DC907F5006B11DD /* DGPhotosViewModel.h */,
+				C17D176B1DC907F5006B11DD /* DGPhotosViewModel.m */,
+				C17D17741DC9234A006B11DD /* DGPhotoPageViewModel.h */,
+				C17D17751DC9234A006B11DD /* DGPhotoPageViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		C17D17631DC8FCE2006B11DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C120136D1DC8C5850039CD04 /* DGAlbumsCell.h */,
+				C120136E1DC8C5850039CD04 /* DGAlbumsCell.m */,
+				C17D176E1DC910DB006B11DD /* DGPhotoPreviewCell.h */,
+				C17D176F1DC910DB006B11DD /* DGPhotoPreviewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C120135B1DC8C2370039CD04 /* ViewController.m in Sources */,
+				C17D17731DC91F68006B11DD /* DGPhotoPage.m in Sources */,
+				C17D17761DC9234A006B11DD /* DGPhotoPageViewModel.m in Sources */,
+				C17D17691DC907B7006B11DD /* DGPhotosVC.m in Sources */,
+				C17D17661DC8FDD9006B11DD /* PHAPI.m in Sources */,
+				C17D176C1DC907F5006B11DD /* DGPhotosViewModel.m in Sources */,
 				C12013581DC8C2370039CD04 /* AppDelegate.m in Sources */,
+				C17D17701DC910DB006B11DD /* DGPhotoPreviewCell.m in Sources */,
 				C12013551DC8C2370039CD04 /* main.m in Sources */,
+				C120136C1DC8C4B80039CD04 /* DGAlbumsVC.m in Sources */,
+				C120136F1DC8C5850039CD04 /* DGAlbumsCell.m in Sources */,
+				C17D175D1DC8CC06006B11DD /* DGAlbumsViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +359,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Photos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.d-dt.Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -284,9 +372,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Photos/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ru.d-dt.Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -309,6 +399,7 @@
 				C12013691DC8C2370039CD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

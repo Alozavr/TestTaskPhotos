@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import <Photos/Photos.h>
 @interface AppDelegate ()
 
 @end
