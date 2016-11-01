@@ -87,7 +87,8 @@ static NSString* const AlbumsCellIdentifier = @"AlbumCell";
     NSDictionary *albumInfo = [self.viewModel.albumsArray objectAtIndex:indexPath.row];
     cell.albumName.text = albumInfo[@"name"];
     cell.photoCount.text = albumInfo[@"count"];
-    cell.imageView.image = albumInfo[@"image"];
+    if (albumInfo[@"image"] != [NSNull null])
+        cell.imageView.image = albumInfo[@"image"] ;
     cell.albumId = albumInfo[@"id"];
     
     return cell;
