@@ -1,2 +1,2 @@
 # TestTaskPhotos
-Test photos app with MVVM adnf other stuff
+Test photos app with MVVM and other stuff
