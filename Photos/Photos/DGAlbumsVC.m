@@ -56,7 +56,7 @@ static NSString* const AlbumsCellIdentifier = @"AlbumCell";
         case PHAuthorizationStatusRestricted:{
             UIAlertController * alert = [UIAlertController alertControllerWithTitle:@"Access is denied" message:@"Please allow access to photo library in settings" preferredStyle:UIAlertControllerStyleAlert];
             [self presentViewController:alert animated:YES completion:^{
-                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
+                //[[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
             }];
         }
         default:
