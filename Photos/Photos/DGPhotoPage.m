@@ -60,8 +60,6 @@
 
 -(void) handleSwipe:(UISwipeGestureRecognizer*) sender
 {
-    NSLog(@"Swiped");
-    
     switch (sender.direction) {
         case UISwipeGestureRecognizerDirectionRight:
             self.viewModel.index--;
